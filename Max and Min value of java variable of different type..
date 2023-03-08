@@ -1,0 +1,35 @@
+class hello{
+    public static void main(String[] args){
+       byte bt =100;
+       int i=1234567;
+       short sh=12345;
+       long l=123456789123456L;
+       float f=123.47F;
+       double d=12345.345;
+       char c='A';
+       boolean b=true;
+       System.out.println(bt);
+       System.out.println(i);
+       System.out.println(sh);
+       System.out.println(l);
+       System.out.println(f);
+       System.out.println(d);
+       System.out.println(c);
+       System.out.println(b);
+       System.out.println("Numeric max and min range :");
+       System.out.println("Byte Max : "+Byte.MAX_VALUE);
+       System.out.println("Byte min : "+Byte.MIN_VALUE);
+       System.out.println("Short Max : "+Short.MAX_VALUE);
+       System.out.println("Short min : "+Short.MIN_VALUE);
+       System.out.println("Int Max : "+Integer.MAX_VALUE);
+       System.out.println("Int min : "+Integer.MIN_VALUE);
+       System.out.println("Long Max : "+Long.MAX_VALUE);
+       System.out.println("Long min : "+Long.MIN_VALUE);
+       System.out.println("Float Max : "+Float.MAX_VALUE);
+       System.out.println("Float min : "+Float.MIN_VALUE);
+       System.out.println("Character Max : "+(Character.MAX_VALUE+0));
+       System.out.println("Character min : "+Character.MIN_VALUE);
+       System.out.println("Double Max : "+Double.MAX_VALUE);
+       System.out.println("Double min : "+Double.MIN_VALUE);
+    }
+}
