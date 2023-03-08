@@ -1,0 +1,42 @@
+class P1 {
+    public static void main(String[] args){
+     byte bt =100;
+     int i=1234567;
+     short sh=12345;
+     long l=123456789123456L;
+     float f=1425.47F;
+     double d=218282.3737;
+     char c='A';
+     boolean bl=true;
+     String s="My name is Mahfuj";
+     System.out.printf("Byte =%d%n",bt);
+     System.out.printf("Byte =%o%n",bt);
+     System.out.printf("Byte =%x%n",bt);
+     System.out.printf("Int =%X%n",i);
+     System.out.printf("double in floating form =%f%n",d);
+     System.out.printf("double in scientific form =%e%n",d);
+     System.out.printf("double in scientific form =%E%n",d);
+     System.out.printf("double in scientific form =%g%n",d);
+     System.out.printf("double in scientific form =%G%n",d);
+     //%g actually identfy to print variable as a scientific form or not.
+     //It's all about chapter 21.
+     System.out.printf("%s%n",s);
+     System.out.printf("%S%n",s);
+     System.out.printf("Byte =|%10d|%n",bt);
+     System.out.printf("Byte =|%1d|%n",bt);
+     System.out.printf("Byte =|%010d|%n",bt);
+     System.out.printf("Byte =|%+10d|%n",bt);
+     System.out.printf("Byte =|%-10d|%n",bt);
+     System.out.printf("Byte =|%+10d|%n",-bt);
+     System.out.printf("Byte =|%-10d|%n",-bt);
+     //System.out.printf("Byte =|%,1d|%n",bt);
+     //System.out.printf("Byte =%,5%n",i);
+     System.out.printf("Byte =|%15.3e|%n",d);
+     System.out.printf("Byte =|%-20s|%n",s);
+     System.out.printf("Byte =|%20s|%n",s);
+    
+ 
+ 
+ 
+    }
+ }
