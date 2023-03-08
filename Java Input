@@ -7,6 +7,7 @@ public class ArrayTest {
       //Firstly take input ab then a b and then a.
       System.in.skip(100);
       //to skip new line for avoid taking new line as input.
+      //here to skip char we can read a new character like (char)System.in.read( )
       c=(char)System.in.read();
       System.out.println(c);
 
