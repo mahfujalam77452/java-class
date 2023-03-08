@@ -3,7 +3,8 @@ public class ArrayTest {
       char c;
       c=(char)System.in.read();
       System.out.println(c);
-      //Show if we take only one input then what will have after clicking inter.
+      //Show if we take only one input whithout skip function then what will have after clicking inter.
+      //Firstly take input ab then a b and then a.
       System.in.skip(100);
       //to skip new line for avoid taking new line as input.
       c=(char)System.in.read();
