@@ -1,0 +1,25 @@
+class P1{
+    public static void main(String[] args){
+     byte bt =127;
+     bt++;
+     System.out.println(bt);
+     bt=-128;
+     bt--;
+     System.out.println(bt);
+     //it actuallly work same like as.
+     bt=(byte)128;
+     System.out.println(bt);
+     short sh=Short.MAX_VALUE;
+     System.out.println(sh);
+     System.out.println(++sh);
+     int i=Integer.MAX_VALUE;
+     long l=i+1;
+     System.out.println(l);
+     //infinite loop.
+     /*for(byte b=100;b<150;b++)System.out.println(b);
+     for(sh=Short.MAX_VALUE;sh<Short.MAX_VALUE+20;sh++)System.out.println(sh);
+     */
+ 
+ 
+    }
+ }
