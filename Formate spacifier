@@ -31,7 +31,7 @@ class P1 {
      System.out.printf("Byte =|%-10d|%n",-bt);
      //System.out.printf("Byte =|%,1d|%n",bt);
      System.out.printf("Byte =%,5d%n",i);
-     System.out.printf("Byte =|%15.3e|%n",d);
+     System.out.printf("Byte =|%15.3e|%n",d);//3 means there will 3 number after decimal point.
      System.out.printf("Byte =|%-20s|%n",s);
      System.out.printf("Byte =|%20s|%n",s);
     
